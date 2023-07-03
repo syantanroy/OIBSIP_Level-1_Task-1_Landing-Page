@@ -1,0 +1,333 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #202327;
+}
+
+.header {
+  background-color: #104da1;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 2%;
+
+}
+
+.top {
+  background-image: url(https://www.indusind.com/iblogs/wp-content/uploads/personal-loan-3.jpg);
+
+  background-size: 100% 100%;
+  height: 400px;
+  border: 0px;
+  border-radius: 0%;
+}
+
+.links,
+.footer,
+.placeholder {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+h1,
+.logo,
+button,
+.action {
+  color: #f9faf8;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+}
+
+h2 {
+  font-size: 46px;
+  font-weight: 800;
+  color: azure;
+  display: flex;
+  justify-content: center
+}
+
+.info {
+  padding-bottom: 50px;
+  color: azure;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px
+}
+
+.icon {
+  padding: 50px;
+  max-width: 0px;
+  border-style: solid;
+  border-color: #3882f6;
+  border-radius: 10px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  border-color: #3882f6;
+  border-radius: 10px;
+}
+
+.info-box {
+  max-width: 150px;
+}
+
+.text {
+  text-align: center;
+  font-weight: 100;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 20px;
+}
+
+.text1 {
+  font-weight: bold;
+  font-size: 18px
+}
+
+.bottom {
+  background-color: #e5e7eb;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-box {
+  width: 85%;
+}
+
+.quote {
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.source {
+  text-align: right;
+  font-weight: bold;
+}
+
+/*
+
+*/
+
+.content {
+  padding-left: 15%;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  padding: 2% 5%;
+}
+
+.text-content>h1 {
+  width: 400px;
+  font-size: 38px;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
+  line-height: 55px;
+}
+
+.text-content>h4 {
+  padding-top: 9%;
+  padding-left: 29%;
+  font-size: 1.15rem;
+  letter-spacing: 0.35px;
+  font-weight: lighter;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 25px;
+}
+
+.two-button {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+
+.w-btn {
+  color: #1a2c79;
+}
+
+.w-btn:hover {
+  background: transparent;
+  color: white;
+  border: 0.55px solid white;
+  transition: 0.55s;
+}
+
+.t-btn {
+  background: transparent;
+  border: 0.55px solid white;
+  color: white;
+}
+
+.t-btn:hover {
+  color: black;
+  background: white;
+  border: none;
+  transition: 0.55s;
+}
+
+
+/*contact part*/
+
+
+.footer-distributed {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px;
+  padding: 20px 25px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 66px;
+  margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: lightseagreen;
+  text-decoration: none;
+  ;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
